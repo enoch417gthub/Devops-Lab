@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevOps - Basics</title>
+
+  <style>
+    body{
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      color: #222;
+    }
+
+    header{
+      background: #0d6efd;
+      color: white;
+      padding: 25px 15px;
+      text-align: center;
+    }
+
+    header h1{
+      margin: 0;
+      font-size: 32px;
+    }
+
+    header p{
+      margin: 8px 0 0;
+      font-size: 16px;
+      opacity: 0.95;
+    }
+
+    .container{
+      max-width: 1000px;
+      margin: auto;
+      padding: 25px;
+    }
+
+    .card{
+      background: white;
+      border-radius: 15px;
+      padding: 25px;
+      box-shadow: 0px 0px 15px rgba(0,0,0,0.12);
+      margin-bottom: 25px;
+    }
+
+    .devops-img{
+      width: 100%;
+      max-width: 750px;
+      display: block;
+      margin: 15px auto;
+      border-radius: 15px;
+      border: 3px solid #0d6efd;
+      object-fit: cover;
+    }
+
+    h2{
+      color: #0d6efd;
+      margin-bottom: 10px;
+    }
+
+    ul{
+      line-height: 1.8;
+      font-size: 16px;
+    }
+
+    .tools{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 12px;
+      margin-top: 10px;
+    }
+
+    .tool-box{
+      background: #eef5ff;
+      border-left: 6px solid #0d6efd;
+      padding: 12px;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+
+    .btn{
+      display: inline-block;
+      margin-top: 10px;
+      padding: 12px 18px;
+      background: #0d6efd;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+    }
+
+    .btn:hover{
+      background: #084298;
+    }
+
+    footer{
+      text-align: center;
+      padding: 15px;
+      color: gray;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>DevOps Basics</h1>
+    <p>Development + Operations = Faster Software Delivery 🚀</p>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>What is DevOps?</h2>
+      <p>
+        DevOps is a combination of <b>Development</b> and <b>Operations</b>. It is a culture and set of practices
+        that helps teams build, test, and release software faster and more reliably. DevOps focuses on automation,
+        collaboration, monitoring, and continuous improvement.
+      </p>
+
+      <!-- ✅ IMAGE HERE -->
+      <!-- Replace "devops.png" with your actual image file name -->
+      <img src="screenshots/devops.png" alt="DevOps Image" class="devops-img" />
+
+      <p>
+        In DevOps, developers and IT operations work together to reduce errors, deploy faster,
+        and maintain stable systems.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Why DevOps is Important?</h2>
+      <ul>
+        <li>✅ Faster software delivery</li>
+        <li>✅ Better collaboration between teams</li>
+        <li>✅ Less downtime and fewer errors</li>
+        <li>✅ Automation reduces manual work</li>
+        <li>✅ Improves system reliability and performance</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>DevOps Lifecycle</h2>
+      <ul>
+        <li><b>Plan</b> → Decide what to build</li>
+        <li><b>Develop</b> → Write the code</li>
+        <li><b>Build</b> → Compile/package software</li>
+        <li><b>Test</b> → Automated testing</li>
+        <li><b>Release</b> → Prepare for deployment</li>
+        <li><b>Deploy</b> → Push software to servers</li>
+        <li><b>Operate</b> → Maintain and monitor systems</li>
+        <li><b>Monitor</b> → Track logs and performance</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Common DevOps Tools</h2>
+      <div class="tools">
+        <div class="tool-box">Git / GitHub</div>
+        <div class="tool-box">Jenkins</div>
+        <div class="tool-box">Docker</div>
+        <div class="tool-box">Kubernetes</div>
+        <div class="tool-box">Ansible</div>
+        <div class="tool-box">Terraform</div>
+        <div class="tool-box">Linux</div>
+        <div class="tool-box">AWS / Azure</div>
+      </div>
+
+      <a class="btn" href="#" onclick="alert('DevOps is all about automation + collaboration! 🚀')">
+        Click for Message
+      </a>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2026 | Created by ENOCH Fernandes | DevOps Webpage</p>
+  </footer>
+
+</body>
+</html>
